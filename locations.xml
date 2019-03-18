@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<locations>
+   <location>
+             <category>center</category>
+             <name>Assabr -Islamic Center Of Portland</name>
+             <lat>45.4508321</lat>
+             <lng>-122.721906</lng>
+             <info>Masjid As-Saber is the largest mosque in Portland, Oregon. The Masjed offers many services such as counseling, eductaional services, social services, marriage and funral services</info>
+             <url>http://www.assaber.com/</url>
+   </location>
+   <location>
+             <category>center</category>
+             <name>Bilal Masjid</name>
+             <lat>45.4901297</lat>
+             <lng>-122.8426643</lng>
+             <info>Establishing congregational prayers and carry out other religious activities that are open fully to men, women and children, Arranging educational programs for all members of the family, Participates heavily in interfaith and community service programs and social events.</info>
+             <url>http://www.bilalmasjid.com</url>
+   </location>
+
+   <location>
+             <category>center</category>
+             <name>Masjid Omar Farooq</name>
+             <lat>45.5194558</lat>
+             <lng>-122.5398194</lng>
+             <info>Also known as Islamic Center of Southeast Portland, We pray Magrib salah everyday and pray Jumah. There is a weekend school for the kids.</info>
+             <url>https://www.facebook.com/profile.php?id=100004549638506</url>
+   </location>
+   <location>
+             <category>center</category>
+             <name>BECO</name>
+             <lat>45.476179</lat>
+             <lng>-122.5355467</lng>
+             <info>Beautiful mosque run by the Bosniaks Educational and Cultural Organization (BECO). Not strictly for Bosnians only; others are welcome. The Bosniaks Educational and Cultural Organization is, first and foremost, a Religious Organization. Our mandate is to provide religious services to our congregation and community.</info>
+             <url>http://becopdx.com/</url>
+   </location>
+   <location>
+             <category>center</category>
+             <name>Salman Alfarisi Islamic Center</name>
+             <lat>44.57392</lat>
+             <lng>-123.275476</lng>
+             <info>The center is a family oriented place where any Muslim can come and find an Islamic atmosphere that holds warmly all of them and help them understand and practice the true authentic teachings of Islam.</info>
+             <url>https://www.facebook.com/corvallismasjid/</url>
+   </location>
+
+   <location>
+             <category>center</category>
+             <name>Ibrahim Masjid - Bethany Musala</name>
+             <lat>45.5542003</lat>
+             <lng>-122.8331188</lng>
+             <info>Masjid Ibrahim is a non-profit organization established for the purpose of providing religious and educational services to the Muslim community in the Bethany and neighboring areas. It will be done in accordance with the teachings of the Holy Quran, Sunnah and the ways of pious predecessors.</info>
+             <url>http://masjid-ibrahim.com/</url>
+   </location>
+   <location>
+             <category>center</category>
+             <name>MCCP</name>
+             <lat>45.562213</lat>
+             <lng>-122.669068</lng>
+             <info>The Muslim Community Center of Portland (MCCP) aims to develop, support and promote a comprehensive and wholesome representation of the Islamic way of life as outlined in the Holy Quraan and modeled in the noble life of Prophet Muhammad (peace be upon him). We are comprised of Muslims with ethnic backgrounds from all around the world and doors are always open to all!.</info>
+             <url>http://mccpdx.org/</url>
+   </location>
+   <location>
+             <category>school</category>
+             <name>CIMS - Crescent Islamic Montessori School</name>
+             <lat>45.4901089</lat>
+             <lng>-122.850066</lng>
+             <info>Crescent Islamic Montessori School is a non-profit preschool founded by the community for the community, it provides a developmentally appropriate program based on the principles and philosophy of Dr. Maria Montessori and the recommendations of the latest research in early childhood education encapsulated within an Islamic atmosphere</info>
+             <url>http://www.cimschool.com/</url>
+   </location>
+    <location>
+             <category>school</category>
+             <name>ISP - Islamic School Of Portland</name>
+             <lat>45.4516722</lat>
+             <lng>-122.7219491</lng>
+             <info>Small classroom sizes school, Preschool to 8th grade, teaches Quraan, Islamic studies and Arabic language along with Math, English and Science. </info>
+             <url>http://ispdx.org/</url>
+   </location>
+    <location>
+             <category>school</category>
+             <name>MET - Muslim Educational Trust</name>
+             <lat>45.444906</lat>
+             <lng>-122.7952085</lng>
+             <info>Islamic Schol PreK - 12th grade, weekend school, Quraan Institute, Interfaith relations and a community center.</info>
+             <url>http://www.metpdx.org/</url>
+   </location>
+   <location>
+             <category>cemetery</category>
+             <name>Islamic Cemetery</name>
+             <lat>44.557840</lat>
+             <lng>-123.329316</lng>
+             <info>THE Islamic Cemetery of Oregon (Corvallis Cemetery)</info>
+             <url>https://www.facebook.com/IslamicCemeteryOregon</url>
+   </location>
+
+</locations>

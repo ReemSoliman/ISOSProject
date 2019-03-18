@@ -1,0 +1,21 @@
+@CHARSET "ISO-8859-1";
+
+ul.FooterList {
+list-style-type: none;
+}
+
+li.FooterListItem 
+{
+margin-left: 1em;
+font-size: 0.8em;
+
+}
+
+.footer {
+    background-color:rgb(37, 54, 0);
+    color:white;  
+   padding:5px;	 	 
+   clear:both;
+   width:100%;
+   
+}

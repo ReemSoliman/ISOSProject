@@ -1,0 +1,24 @@
+@CHARSET "ISO-8859-1";
+
+.timetable {
+  width: 60%;
+border-width: 1px; 
+border-style: outset; 
+border-collapse: collapse; 
+border-color: gray;
+ margin: 0 auto;}
+		
+ .timetable td {
+   border-width: 1px; 
+   border-spacing: 1px; 
+   padding: 0.1em; 
+   border-style: inset; 
+   border-color: #CCCCCC;}
+		
+  .head-row {
+    color: black;
+  background-color: #eef;}
+
+.today-row {
+  background-color: #F8F7F4; 
+  color: black}

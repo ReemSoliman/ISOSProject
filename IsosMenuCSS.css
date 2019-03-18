@@ -1,0 +1,145 @@
+@CHARSET "ISO-8859-1";
+#header {
+    background-color:white;
+    height: 1000px;
+    text-align:center;
+    padding:1px;
+}
+
+#nav {
+    background-color:white;
+    padding:1px;
+}
+
+#section {
+    width:350px;
+    float:left;
+    padding:10px;
+}
+
+ul#menu li {
+    display: block;
+    padding-right: 0.8em;
+}
+@media only screen and (max-width: 600px){
+       ul#menu li {
+         padding-right: 0.3em;
+       }
+}
+
+ul.Nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(37, 54, 0);
+}
+
+ul.Nav li{
+  float:left;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 1.0em;
+
+}
+@media only screen and (max-width: 400px){
+  ul.Nav li{
+    font-size: .7em;
+  }
+}
+li.non-dropdown a, .donatelink a, .dropbtn  {
+    display: inline-table;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+@media only screen and (max-width: 400px){
+       li.non-dropdown a, .donatelink a, .dropbtn{
+         padding: 5px 1px;
+       }
+}
+@media only screen and (max-width: 600px){
+       li.non-dropdown a, .donatelink a, .dropbtn{
+         padding: 7px 4px;
+       }
+}
+li a:active  {
+    background-color: #CD853F;
+}
+
+
+li a:hover, .dropdownISOS:hover .dropbtn {
+    background-color: 	#8B0000;
+}
+
+li.dropdownISOS{
+    display: block;
+}
+
+.dropdown-content {
+    color: black;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index:10000000;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdownISOS:hover .dropdown-content{
+    display: block;
+}
+.dropdown-content a:hover{
+   display: block;
+}
+
+ /*.donatelink {
+   float: left;
+ margin-left: 20%;
+ background-color:red;
+ }  */
+
+
+a.menuHeader{
+font-weight: bold;
+padding-bottom: 5px;
+
+}
+
+a.subDirectoryMenuItem{
+ padding: 5px 0px 5px 30px;
+}
+
+.donatelink {
+   margin-right: 5%;
+ background-color:red;
+ }
+ .donatelink a:hover {
+ background-color:red;
+ }
+
+ @media only screen and (max-device-width: 600px){
+ .donatelink {
+   float:right;
+   margin-right:0px;
+   }
+ }
+
+ .contactUsLink:visited, .contactUsLink:link{
+ color: white;
+ text-decoration: none;
+ /*background-color: rgba(37, 54, 0,0.4);
+ text-shadow: 0px 0px 3px #000;  */
+ }
+ body, html{
+    overflow-x: hidden;
+}

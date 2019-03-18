@@ -1,0 +1,359 @@
+@CHARSET "ISO-8859-1";
+.errorMessage{
+	font-weight: bold;
+	color: red;
+
+}
+body {
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+pre {
+	
+	font-size: 1em;
+	display: inline-block;
+}
+
+p {
+	
+	font-size: 1.3em;
+}
+P.smaller{
+ 
+  font-size: 1em;
+  line-height: 150%;
+}
+P.indented{
+ 
+  text-indent: 5em;
+}
+ol  {
+  
+  font-size: 1em;
+  line-height: 150%;
+}
+a {
+  color:#008000;
+  
+}
+.subtitle{
+	
+	color:#008000;
+	font-size: 1em;
+
+}
+
+h2.pageTitle{
+	
+	color:#008000;
+	font-size: 1.5em;
+	/*margin-left:0.5em; >  */
+}
+.formTitle{
+	
+	color:#008000;
+	margin-bottom: 0.5em;
+}
+.formText{
+	margin-bottom: 0.5em;
+}
+
+div.sidebar {
+    border-radius: 25px;
+    background: #008000;
+    color:white;
+    padding: 0px;
+    text-align: left;
+}
+a.sidebarlink{
+    color: white;
+    text-decoration: none;
+}
+object.pdfDoc{
+  width: 100%;
+  height: 100%;
+}
+ol#otherwaystogiveList li a {
+  color:#008000;
+  display: inline;
+  background-color:transparent;
+}
+ol#otherwaystogiveList li a: hover{
+  background-color:transparent;
+}
+  label, radio {
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 1.0em;
+}
+select {
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 1em;
+    border: 2px solid #888;
+    border-radius: 4px;
+}
+input[type=text], input[type=email]{
+    border: 2px solid #888;
+    height: 2em;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 1.0 em;
+    margin-bottom: 0.5em;
+    border-radius: 4px;
+}
+input[type=text]:focus, input[type=email]:focus {
+    border: 3px solid #555;
+}
+textarea{
+    border: 2px solid #888;
+    height: 10em;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 1.0em;
+    border-radius:4px;
+}
+
+td.laws-left  {
+  text-align:center;
+  vertical-align:top;
+  background-color:#336600;
+  color: white;
+}
+td.laws-right  {
+  text-align:justify;
+  vertical-align:top;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 1.0em;
+  padding-bottom: 0.5em;
+  padding-left: 1.0em;
+}
+
+div.instButtonDiv{
+  width:25%;
+  margin-left:auto;
+  margin-right:auto;
+}
+button{
+    background-color:#008000;
+    font-size:1.5em;
+    color: white;
+    width: 5em;
+    height: 2em;
+    border-radius: .5em;
+}
+button:hover{
+	background-color:rgb(37, 54, 0);	
+
+	}
+	
+	
+input[type=submit]{
+	margin-left:50%; 
+	background-color:#008000; 
+	font-size:1.5em; 
+	color: white;
+	width: 5em;
+    height: 2em;
+    border-radius: .5em;
+}
+input[type=submit]:hover
+{
+    background-color:rgb(37, 54, 0);	
+}
+@media only screen and  (min-device-width : 320px)
+and (max-device-width : 600px)  {
+    button{
+      font-size:1em;
+      }
+    div.instButtonDiv{
+      width:50%;
+      }
+}
+
+.newslettercontainer iframe{
+  position: relative;
+    top:0;
+    left: 0;
+    padding: 0;
+}
+
+div.img {
+    border: 1px solid #ccc;
+    overflow:hidden;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    
+    max-height: 60%
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    /*height: auto;*/
+}
+/*.mainDiv{
+  margin-left:auto; 
+  margin-right:auto; 
+  width:70%;  
+  height:100%;
+  border:3px solid #73AD21; 
+  overflow:auto; 
+  position:relative; 
+  padding-left: 0.5em;
+}
+@media only screen and (max-width: 600px){
+  .mainDiv{
+    width:90%;
+  }
+}
+.mainDivBoard{
+  margin-left:auto;
+  margin-right:auto; 
+  width:70%;  
+  height:100%;
+  border:3px solid #73AD21; 
+  overflow:auto; 
+  position:relative; 
+  padding-left: 1.5em; 
+  padding-right: 1.5em;
+}
+@media only screen and (max-width: 600px){
+  .mainDivBoard{
+    width:90%;
+  }
+} */
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+
+    height: 15%
+    max-height: 15%
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.homeCarousel{
+  position:relative;
+  width:30%;
+  height:350px;
+  background: #008000;
+  text-align:center;
+  float:right; 
+  margin-right:1em; 
+  margin-left:1em;
+}
+@media only screen and (max-width: 600px){
+    .homeCarousel {
+      width:100%;
+      float:none;
+      margin-left:auto;
+      margin-right:auto;
+      clear: both;
+      margin:0;
+    }
+}
+.containerCarousel{
+  margin-left:auto; 
+  margin-right:auto; 
+  width:70%;  
+  height:100%;
+  border:3px solid #73AD21; 
+  overflow:auto; 
+  position:relative; 
+  padding-left: 0.5em; 
+  padding-right: 1.5em;
+}
+@media only screen and (max-width: 600px){
+    .containerCarousel {
+      width:90%;
+      text-align:center;
+    }
+}
+
+.orgTitle{
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+@media only screen and (max-width: 600px){
+    .orgTitle {
+      font-size: 1.5em;
+    }
+}
+.logo{
+  float:left; 
+  margin-left:2em; 
+  margin-right:2em; 
+  margin-top:auto;
+  margin-bottom:auto;
+}
+@media only screen and (max-width: 600px){
+  .logo{
+    margin-left:0.5em;
+  margin-right:0.5em;
+  }
+}
+.homeCarouselheader{
+  font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
+  color: white;
+}
+
+@media only screen and (max-width: 600px){
+  .homeCarouselheader{
+    font-size: .8em;
+    margin:auto;
+  }
+}
+ul.homeList{
+  list-style-type: none;
+}
+@media only screen and (max-width: 600px){
+  ul.homeList{
+    padding:0;
+  list-style-type: none;
+
+}
+}
+
+div.calendarcontainer{
+	position: relative;
+	width:80%;
+	margin-left:auto; 
+	margin-right:auto;
+	height:100%;
+	border:3px solid #73AD21;
+	overflow:auto;
+	position:relative;
+	padding-left: 0.5em;
+	
+	}
+	@media only screen and (max-width: 600px){
+    div.calendarcontainer {
+      width:90%;
+      }
+	}
+
+
